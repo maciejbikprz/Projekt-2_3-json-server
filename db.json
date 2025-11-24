@@ -1,29 +1,40 @@
 {
-  "indieGames": [
-    { "id": 1,  "title": "The Binding of Isaac",          "price": 19.99 },
-    { "id": 2,  "title": "Hollow Knight",                 "price": 29.99 },
-    { "id": 3,  "title": "Dead Cells",                    "price": 24.99 },
-    { "id": 4,  "title": "Celeste",                       "price": 19.99 },
-    { "id": 5,  "title": "Stardew Valley",                "price": 14.99 },
-    { "id": 6,  "title": "Enter the Gungeon",             "price": 14.99 },
-    { "id": 7,  "title": "Cuphead",                       "price": 29.99 },
-    { "id": 8,  "title": "Ori and the Blind Forest",      "price": 19.99 },
-    { "id": 9,  "title": "Limbo",                         "price": 9.99 },
-    { "id": 10, "title": "Inside",                        "price": 19.99 },
-    { "id": 11, "title": "Terraria",                      "price": 9.99 },
-    { "id": 12, "title": "Slay the Spire",                "price": 24.99 },
-    { "id": 13, "title": "Hotline Miami",                 "price": 9.99 },
-    { "id": 14, "title": "Braid",                         "price": 14.99 },
-    { "id": 15, "title": "Hyper Light Drifter",           "price": 19.99 },
-    { "id": 16, "title": "Subnautica",                    "price": 24.99 },
-    { "id": 17, "title": "Fez",                           "price": 9.99 },
-    { "id": 18, "title": "Gris",                          "price": 16.99 },
-    { "id": 19, "title": "Rogue Legacy",                  "price": 14.99 },
-    { "id": 20, "title": "The Messenger",                 "price": 19.99 },
-    { "id": 21, "title": "Risk of Rain",                  "price": 9.99 },
-    { "id": 22, "title": "Risk of Rain 2",                "price": 24.99 },
-    { "id": 23, "title": "Don't Starve",                  "price": 14.99 },
-    { "id": 24, "title": "Darkest Dungeon",               "price": 24.99 },
-    { "id": 25, "title": "Papers, Please",                "price": 9.99 }
+  "posts": [
+    { "id": 1, "title": "Jak zacząć programować?", "body": "Kilka prostych kroków na start." },
+    { "id": 2, "title": "Czy warto uczyć się JavaScript?", "body": "Moja opinia na temat JS w 2025 roku." },
+    { "id": 3, "title": "Najlepsze IDE dla początkujących", "body": "Porównanie: VS Code, Visual Studio, IntelliJ." },
+    { "id": 4, "title": "Czym jest API?", "body": "Proste wyjaśnienie dla nowych programistów." },
+    { "id": 5, "title": "HTML i CSS — od czego zacząć?", "body": "Podstawy frontendu w pigułce." },
+    { "id": 6, "title": "Dlaczego warto używać GitHuba?", "body": "Kilka praktycznych powodów." },
+    { "id": 7, "title": "Co to jest JSON?", "body": "Wyjaśnienie struktury danych JSON." },
+    { "id": 8, "title": "REST vs SOAP", "body": "Czym różnią się style API?" },
+    { "id": 9, "title": "Backend czy frontend?", "body": "Którą ścieżkę wybrać na start?" },
+    { "id": 10, "title": "Czy ChatGPT pomaga w nauce?", "body": "Krótka analiza i przykłady." }
+  ],
+
+  "comments": [
+    { "id": 1, "postId": 1, "text": "Super porady, dzięki!" },
+    { "id": 2, "postId": 1, "text": "Czekam na więcej wpisów." },
+    { "id": 3, "postId": 2, "text": "Moim zdaniem JS zawsze warto znać." },
+    { "id": 4, "postId": 3, "text": "VS Code najlepszy!" },
+    { "id": 5, "postId": 3, "text": "IntelliJ też spoko dla Javy." },
+    { "id": 6, "postId": 5, "text": "HTML/CSS na początek obowiązkowe." },
+    { "id": 7, "postId": 6, "text": "GitHub ratuje życie w projektach." },
+    { "id": 8, "postId": 7, "text": "Najlepsze wyjaśnienie JSON jakie widziałem." },
+    { "id": 9, "postId": 9, "text": "Frontend bardziej kreatywny!" },
+    { "id": 10, "postId": 10, "text": "Tak, pomaga — ale trzeba umieć pytać." }
+  ],
+
+  "ratings": [
+    { "id": 1, "postId": 1, "stars": 5 },
+    { "id": 2, "postId": 2, "stars": 4 },
+    { "id": 3, "postId": 3, "stars": 5 },
+    { "id": 4, "postId": 4, "stars": 3 },
+    { "id": 5, "postId": 5, "stars": 4 },
+    { "id": 6, "postId": 6, "stars": 5 },
+    { "id": 7, "postId": 7, "stars": 5 },
+    { "id": 8, "postId": 8, "stars": 3 },
+    { "id": 9, "postId": 9, "stars": 4 },
+    { "id": 10, "postId": 10, "stars": 5 }
   ]
 }
